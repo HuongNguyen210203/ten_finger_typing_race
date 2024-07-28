@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Keyboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <img id="background-image" src="background.jpg" alt="background image">
+    <div id="game-container">
+        <h1 id="title">Finger Typing Race</h1>
+        <h2 id="word-display"></h2>
+        <input type="text" id="input-field" autofocus>
+        <p>Score: <span id="score-value">0</span></p>
+        <p>Time left: <span id="timer">10</span> seconds</p>
+    </div>
+    <div class="keyboard">
+        <!-- Row 1 -->
+        <div class="keyboard__row">
+            <div id="key-q" class="keyboard__key keyboard__key--left-pinky">Q</div>
+            <div id="key-w" class="keyboard__key keyboard__key--left-ring">W</div>
+            <div id="key-e" class="keyboard__key keyboard__key--left-middle">E</div>
+            <div id="key-r" class="keyboard__key keyboard__key--left-index">R</div>
+            <div id="key-t" class="keyboard__key keyboard__key--left-index">T</div>
+            <div id="key-y" class="keyboard__key keyboard__key--right-index">Y</div>
+            <div id="key-u" class="keyboard__key keyboard__key--right-index">U</div>
+            <div id="key-i" class="keyboard__key keyboard__key--right-middle">I</div>
+            <div id="key-o" class="keyboard__key keyboard__key--right-ring">O</div>
+            <div id="key-p" class="keyboard__key keyboard__key--right-pinky">P</div>
+        </div>
+        <!-- Row 2 -->
+        <div class="keyboard__row">
+            <div id="key-a" class="keyboard__key keyboard__key--left-pinky">A</div>
+            <div id="key-s" class="keyboard__key keyboard__key--left-ring">S</div>
+            <div id="key-d" class="keyboard__key keyboard__key--left-middle">D</div>
+            <div id="key-f" class="keyboard__key keyboard__key--left-index">F</div>
+            <div id="key-g" class="keyboard__key keyboard__key--left-index">G</div>
+            <div id="key-h" class="keyboard__key keyboard__key--right-index">H</div>
+            <div id="key-j" class="keyboard__key keyboard__key--right-index">J</div>
+            <div id="key-k" class="keyboard__key keyboard__key--right-middle">K</div>
+            <div id="key-l" class="keyboard__key keyboard__key--right-ring">L</div>
+        </div>
+        <!-- Row 3 -->
+        <div class="keyboard__row">
+            <div id="key-z" class="keyboard__key keyboard__key--left-pinky">Z</div>
+            <div id="key-x" class="keyboard__key keyboard__key--left-ring">X</div>
+            <div id="key-c" class="keyboard__key keyboard__key--left-middle">C</div>
+            <div id="key-v" class="keyboard__key keyboard__key--left-index">V</div>
+            <div id="key-b" class="keyboard__key keyboard__key--left-index">B</div>
+            <div id="key-n" class="keyboard__key keyboard__key--right-index">N</div>
+            <div id="key-m" class="keyboard__key keyboard__key--right-middle">M</div>
+        </div>
+        <!-- Enter Key -->
+        <div class="keyboard__enter">
+            <div id="key-enter" class="keyboard__key keyboard__key--wide keyboard__key--thumb">Enter</div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

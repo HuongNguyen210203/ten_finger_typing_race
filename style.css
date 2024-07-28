@@ -1,0 +1,115 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    position: relative;
+}
+
+#background-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+#game-container {
+    text-align: center;
+    margin-bottom: 3%;
+    background: gainsboro;
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+h1 {
+    color: blue;
+    font-size: xx-large;
+}
+
+
+.keyboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: gainsboro;
+    margin-bottom: 50px;
+    z-index: 1;
+}
+
+.keyboard__row {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.keyboard__key {
+    padding: 15px;
+    border: 1px solid #999;
+    text-align: center;
+    user-select: none;
+    font-size: 20px;
+    width: 40px;
+    border-radius: 10px;
+}
+
+.keyboard__key--left-pinky {
+    background-color: #ff9999;
+}
+
+
+.keyboard__key--left-ring {
+    background-color: #ffcc99;
+}
+
+
+.keyboard__key--left-middle {
+    background-color: #ffff99;
+}
+
+.keyboard__key--left-index {
+    background-color: #ccff99;
+}
+
+
+.keyboard__key--right-index {
+    background-color: #99ffcc;
+}
+
+
+.keyboard__key--right-middle {
+    background-color: #99ccff;
+}
+
+
+.keyboard__key--right-ring {
+    background-color: #cc99ff;
+}
+
+
+.keyboard__key--right-pinky {
+    background-color: #ff99ff;
+}
+
+.keyboard__key--thumb {
+    background-color: #ffffff;
+}
+
+
+.keyboard__key--active {
+    background-color: #999;
+}
+
+.keyboard__key--wide {
+    width: 90px;
+}
+
+.keyboard__enter {
+    margin-top: 10px;
+}
